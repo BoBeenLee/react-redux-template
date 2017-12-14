@@ -1,5 +1,5 @@
 import {createReducer} from './reducerHelper';
-import {LOADING} from '../actions/contants';
+import {LOADING} from '../actions/constants';
 
 const initialState = {
   loading: false,

@@ -1,5 +1,5 @@
 
-import {FAILURE, FETCH, SUCCESS} from './contants';
+import {FAILURE, FETCH, SUCCESS} from './constants';
 
 export function createType(base) {
   let _base = base;

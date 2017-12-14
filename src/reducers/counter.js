@@ -1,5 +1,5 @@
 import {createReducer} from './reducerHelper';
-import {FAILURE, SUCCESS} from '../actions/contants';
+import {FAILURE, SUCCESS} from '../actions/constants';
 import {COUNTER} from '../actions/counter';
 
 export const getCounter = (state) => state.counter;

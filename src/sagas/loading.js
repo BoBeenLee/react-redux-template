@@ -1,6 +1,6 @@
 import { call, fork, take, select, put, cancel, takeLatest } from 'redux-saga/effects';
 import _ from 'lodash';
-import {FAILURE, FETCH, LOADING, SUCCESS} from '../actions/contants';
+import {FAILURE, FETCH, LOADING, SUCCESS} from '../actions/constants';
 import {action} from '../actions/actionHelper';
 
 function* doLoading({ loading }) {

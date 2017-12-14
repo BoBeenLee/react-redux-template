@@ -1,5 +1,5 @@
 import {action, createFetchTypes} from './actionHelper';
-import {FAILURE, FETCH, SUCCESS} from './contants';
+import {FAILURE, FETCH, SUCCESS} from './constants';
 import {fetchEntity} from '../sagas/sagaHelper';
 import agent from '../agent';
 

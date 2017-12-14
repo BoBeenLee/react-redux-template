@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import {LOADED} from '../actions/contants';
+import {LOADED} from '../actions/constants';
 import {fetchCounter} from '../actions/counter';
 import {action} from '../actions/actionHelper';
 import {getCounter} from '../reducers/counter';
